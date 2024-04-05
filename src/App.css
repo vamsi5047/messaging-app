@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #ffcd10;
+  padding: 20px 0;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.messages-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.message-name {
+  font-weight: bold;
+}
+
+.message-form {
+  margin-top: 20px;
+}
+
+.name-input,
+.message-input {
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.send-button {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.file-input {
+  padding: 10px;
+  margin: 5px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.send-button:hover {
+  background-color: #ffcd10;
+}
